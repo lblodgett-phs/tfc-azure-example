@@ -26,7 +26,6 @@ resource "azurerm_resource_group" "web" {
   
   tags = {
     "environment" = var.prefix
-    "owner" = "Master Luke!"
   }
 }
 
